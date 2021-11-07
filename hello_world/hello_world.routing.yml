@@ -1,0 +1,8 @@
+hello_world.page_controller:
+  path: '/hello-world'
+  defaults:
+    _controller: '\Drupal\hello_world\Controller\HelloWorldController::index'
+  options:
+    no_cache: 'TRUE'
+  requirements:
+    _access: 'TRUE'
